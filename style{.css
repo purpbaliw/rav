@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Poppins;
+}
+.main {
+	justify-content: center;
+}
+nav {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 50px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.6);
+	border-bottom: 1px solid #whitesmoke;
+}
+nav .logo {
+	padding: 22px 20px;
+	height: 80px;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	color: whitesmoke;
+}
+nav ul {
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li a {
+	line-height: 80px;
+	color: #F3E7D3;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: cursive;
+}
+nav ul li a:hover{
+	background: rgba(243, 231, 211, 0.6);
+	border-radius: 6px;
+	color: black;
+}
+body{
+	background-image: url(nsl.gif);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.cont {
+	width: 1400px;
+	height: 850px;
+	margin: auto;
+}
+.card{
+    width: 400px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:  transform 0.5s;
+    position: relative; 
+    top: 180;
+}
+.card1{
+    background-image: url(hn.jpg);
+    width: 400px;
+    height: 300px;
+    left: 185;
+}
+.card2{
+    background-image: url(dct.jpg);
+    width: 400px;
+    height: 300px;
+    left: 780px;
+    top: -140;
+}
+.card:hover{
+    transform: translateY(-20px)
+}
+h1{
+	color: yellow;
+	font-family: cursive;
+	font-size: 100px;
+	text-shadow: 10px 2px 5px black;
+	position: relative; 
+	padding-left: 100; top: 150;
+}
+.footer {
+	background: rgba(0, 0, 0, 0.9);
+	position: relative;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	height:120px;
+	width:100%;
+}
+.cpr
+{
+	color:black;
+	font-family:Consolas;
+	position:relative;
+	top: 30;
+	width: 600;
+	margin: auto;
+	font-size: 14px;
+	padding-left: 180px;
+}
+.mq
+{
+	color:white;
+	font-family: cursive;
+	font-style: italic;
+	position:relative;
+	top: 20;
+	width: 600;
+	margin: auto;
+	font-size: 18px;
+	padding-left: 90px;
+}
+.logo img {
+	position: absolute;
+	width: 100px;
+    height: 40px;
+}
